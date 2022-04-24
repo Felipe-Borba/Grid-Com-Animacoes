@@ -107,6 +107,28 @@ main {
   animation: topDown 700ms 300ms backwards;
 }
 
+footer {
+  opacity: 0;
+
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  color: #4a4e69;
+
+  margin: 5rem auto;
+}
+
+footer p {
+  font-weight: 400;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+
+  color: #4a4e69;
+}
+
 @keyframes topDown {
   0% {
     opacity: 0;
@@ -133,14 +155,25 @@ main {
 
 @media (min-width: 930px) {
   .page {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-template-areas:
+      "header main"
+      "header main"
+      "header footer";
+  }
+
+  footer {
+    grid-area: footer;
+
+    opacity: 1;
+
+    align-self: center;
+    justify-self: center;
   }
 
   header {
-    min-width: 21rem;
-    max-width: 37.7rem;
-
-    height: 100vh;
+    grid-area: header;
   }
 
   header p {
@@ -149,6 +182,8 @@ main {
   }
 
   main {
+    grid-area: main;
+
     margin: 6.4rem auto auto;
 
     grid-template-areas:
