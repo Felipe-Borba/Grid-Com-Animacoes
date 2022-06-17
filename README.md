@@ -8,4 +8,4 @@ This project is part of Rocketseat stage03 challenge, and a refactor later on th
 
 # Here is some screen shot of the project
 ![Image of the project in pc size screen](/images/screen-shot1.PNG?raw=true "pc screen view")
-![Image of the project in mobile size screen](/images/screen-shot2.PNGw=true "mobile screen view")
+![Image of the project in mobile size screen](/images/screen-shot2.PNG?raw=true "mobile screen view")
