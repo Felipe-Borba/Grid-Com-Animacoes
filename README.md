@@ -5,3 +5,7 @@ This project is part of Rocketseat stage03 challenge, and a refactor later on th
 ## Note
 > When I first programmed this challenge, I already wrote almost everything in English :sweat_smile:.
 > So that means there wasn't much to translate in the challenge of land 08.
+
+# Here is some screen shot of the project
+![Image of the project in pc size screen](/images/screen-shot1.jpg?raw=true "pc screen view")
+![Image of the project in mobile size screen](/images/screen-shot2.jpg?raw=true "mobile screen view")
